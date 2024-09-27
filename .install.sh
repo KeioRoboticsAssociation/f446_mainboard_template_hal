@@ -17,3 +17,6 @@ rm -rf ./.install.sh
 
 # README.mdの中身を空にする
 echo "" > ./README.md
+
+# .gitを削除
+rm -rf ./.git
