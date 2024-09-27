@@ -1,0 +1,31 @@
+## 概要
+
+f446のHALライブラリを使ったプロジェクトのテンプレート。主にメイン基板を想定している。[F446_HAL_Template](https://github.com/KeioRoboticsAssociation/F446_HAL_Template)との違いは、platformioを使用しないこと。C++を使用する設定を事前に行っていること。
+
+## 導入方法
+`~/.bashrc`に以下を追記しておく。
+```bash
+function f446_hal {
+    if [ $# -eq 0 ]; then
+        read -p "project name: " project_name
+    else 
+        project_name=$1
+    fi
+    git clone git@github.com:KeioRoboticsAssociation/f446_mainboard_template_hal.git $project_name
+    cd $project_name
+    bash ./.install.sh $project_name
+}
+```
+
+## 使い方
+
+- 次のようにしてプロジェクトを作成する。
+```bash
+f446_hal [プロジェクト名]
+```
+
+- 中身の.iocをCubeMXで開いてCode Generateを行う。
+
+- F446のHALライブラリをダウンロードしてくる。
+
+(以上の手順をCLI上で行う方法を知っている人がいたら教えてください)

@@ -14,6 +14,9 @@ set(CMAKE_C_EXTENSIONS ON)
 
 set(CMAKE CXX STANDARD 20)
 
+# -Wno-unused-parameterを無視する
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-unused-parameter")
+
 
 # Define the build type
 if(NOT CMAKE_BUILD_TYPE)
