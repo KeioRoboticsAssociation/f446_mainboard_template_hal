@@ -4,28 +4,6 @@
 #include <functional>
 #include <utility>
 
-// // applyを使うためのヘルパー関数
-// template<typename Function, typename Tuple, size_t... Indices>
-// auto apply_impl(Function f, Tuple&& t, std::index_sequence<Indices...>) -> decltype(f(std::get<Indices>(std::forward<Tuple>(t))...)) {
-//     return f(std::get<Indices>(std::forward<Tuple>(t))...);
-// }
-
-// // std::applyの代替(C++17未満)
-// template<typename Function, typename Tuple>
-// auto apply(Function f, Tuple&& t) -> decltype(apply_impl(f, std::forward<Tuple>(t), std::make_index_sequence<std::tuple_size<typename std::remove_reference<Tuple>::type>::value>{})) {
-//     return apply_impl(f, std::forward<Tuple>(t), std::make_index_sequence<std::tuple_size<typename std::remove_reference<Tuple>::type>::value>{});
-// }
-
-// template<typename Function, typename Tuple, size_t... Indices>
-// auto apply_impl(Function f, Tuple&& t, std::index_sequence<Indices...>) -> decltype(f(std::get<Indices>(std::forward<Tuple>(t))...)) {
-//     return f(std::get<Indices>(std::forward<Tuple>(t))...);
-// }
-
-// template<typename Function, typename Tuple>
-// auto original_apply(Function f, Tuple&& t) -> decltype(apply_impl(f, std::forward<Tuple>(t), std::make_index_sequence<std::tuple_size<typename std::remove_reference<Tuple>::type>::value>{})) {
-//     return apply_impl(f, std::forward<Tuple>(t), std::make_index_sequence<std::tuple_size<typename std::remove_reference<Tuple>::type>::value>{});
-// }
-
 // Subscriberクラス。Communicationクラスとコールバックを受け取り、受信データをデシリアライズしてコールバックを呼び出す
 template <typename Communication, typename... Args>
 class Subscriber {

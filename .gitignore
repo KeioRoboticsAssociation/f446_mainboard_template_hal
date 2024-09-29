@@ -5,6 +5,8 @@ CMakeFiles
 build.ninja
 CMakeCache.txt
 compile_commands.json
+cmake
+cmake_install.cmake
 
 # work in progress
 BNO055
