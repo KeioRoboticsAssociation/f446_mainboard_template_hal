@@ -1,6 +1,6 @@
 ## 概要
 
-f446のHALライブラリを使ったプロジェクトのテンプレート。主にメイン基板を想定している。[F446_HAL_Template](https://github.com/KeioRoboticsAssociation/F446_HAL_Template)との違いは、platformioを使用しないこと。C++を使用する設定を事前に行っていること。
+f446のHALライブラリを使ったプロジェクトのテンプレート。
 
 ## 導入方法
 `~/.bashrc`に以下を追記しておく。

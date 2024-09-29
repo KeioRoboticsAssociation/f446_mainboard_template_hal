@@ -1,5 +1,4 @@
 #include "main.hpp"
-#include "BNO055_UART.hpp"
 #include "UartLink.hpp"
 
 // ---- HALのオブジェクト ----
