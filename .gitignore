@@ -7,7 +7,6 @@ build.ninja
 CMakeCache.txt
 CMakePresets.json
 compile_commands.json
-startup_stm32f446xx.s
 
 # work in progress
 BNO055
