@@ -7,10 +7,15 @@ cd $(dirname $0)
 
 # プロジェクトの名前を変更
 project_name=$1
+
 mv ./f446_template_hal.ioc ./${project_name}.ioc
 sed 's/f446_template_hal/'${project_name}'/g' ./${project_name}.ioc > ./${project_name}_tmp.ioc
 mv ./${project_name}_tmp.ioc ./${project_name}.ioc
 rm -rf ./${project_name}_tmp.ioc
+
+sed 's/f446_template_hal/'${project_name}'/g' ./CMakeLists.txt > ./CMakeLists_tmp.txt
+mv ./CMakeLists_tmp.txt ./CMakeLists.txt
+rm -rf ./CMakeLists_tmp.txt
 
 # .install.shを削除
 rm -rf ./.install.sh
