@@ -21,6 +21,7 @@ rm -rf ./CMakeLists_tmp.txt
 
 # .install.shを削除
 rm -rf ./.install.sh
+rm -rf ./.install.bat
 
 # README.mdの中身を空にする
 echo "" > ./README.md
