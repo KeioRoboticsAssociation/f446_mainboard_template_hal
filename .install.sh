@@ -27,5 +27,3 @@ echo "" > ./README.md
 
 # .gitを削除
 rm -rf ./.git
-
-# vscodeのstm32 vscode extensionの設定ファイルを作成
