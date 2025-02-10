@@ -112,11 +112,11 @@ void setup() {
 void loop() {
     pitch_velocity = pid_pitch.calcVelocity(target_pitch, current_pitch);
     yaw_velocity = pid_yaw.calcVelocity(target_yaw, current_yaw);
-    current_pitch += pitch_velocity * control_period;  // ここはエンコーダーなりのコードを用意して書き換える
-    current_yaw += yaw_velocity * control_period;      // ここはエンコーダーなりのコードを用意して書き換える
+    current_pitch += pitch_velocity * control_period;  // ここはエンコーダーとかのコードを用意して書き換える　control_periodはここのコードでとりあえず数字を反映させるために入れたものなので最終的には必要ないはずの数値
+    current_yaw += yaw_velocity * control_period;      // 同様に書き換える
 }
 
-//ROSからのデータ受信時のコールバック関数
+//ROSからのデータ受信時のコールバック関数　目標角を受け取る
 void ros_callback(float pitch, float yaw) {
     target_pitch = pitch;
     target_yaw = yaw;
