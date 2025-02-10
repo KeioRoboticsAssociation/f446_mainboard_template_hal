@@ -101,7 +101,7 @@ void setup() {
     uart_link.start(); // ros2との通信を開始
 
     //pitch, yawのデータを受信するsubscriberを作成
-    UartLinkSubscriber<float, float> sub(uart_link, 0);
+    UartLinkSubscriber<float, float> sub(uart_link, 1);
     sub.set_callback(ros_callback);
 
     // PIDパラメータと台形制御の設定
