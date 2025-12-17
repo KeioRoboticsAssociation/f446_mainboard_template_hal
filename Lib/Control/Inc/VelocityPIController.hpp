@@ -4,7 +4,6 @@
 #include <cstdint>
 #include "DCMotor.hpp"
 #include "Encoder.hpp"
-#include "Msg.hpp"   // ROSToF446 / F446ToROS
 
 /**
  * VelocityPIController（角速度PI制御）
@@ -83,9 +82,6 @@ public:
   // 制御ステップ[秒]で周期呼び出し
   void update(float dt_s);
 
-  // ROSブリッジ連携（main.cppを薄く保つための接点）
-  void setCommandSource(const ROSToF446* cmd) { cmd_src_ = cmd; }
-  void setStatusSink(F446ToROS* st) { status_sink_ = st; }
   // 外部参照をバインド（特定フィールドに入出力を切替）
   // - target_ptr が設定されている場合はそれを優先
   // - pos_ptr/vel_ptr が設定されている場合はそこへ書き出し
@@ -165,8 +161,6 @@ private:
   const volatile uint32_t* last_cmd_ms_ptr_ = nullptr; // source of last command tick
 
   // 任意の連携（外部参照の入出力先）
-  const ROSToF446* cmd_src_ = nullptr;  // read target from here if set
-  F446ToROS*       status_sink_ = nullptr; // write back simple status if set
   const float*     ext_target_ptr_ = nullptr;  // optional external target src
   float*           ext_pos_ptr_ = nullptr;     // optional external pos sink
   float*           ext_vel_ptr_ = nullptr;     // optional external vel sink

@@ -5,8 +5,13 @@ CMakeFiles
 build.ninja
 CMakeCache.txt
 compile_commands.json
-cmake
 cmake_install.cmake
 
 # work in progress
 BNO055
+
+# VSCode STM32Cube extension state
+.settings
+
+# Local clangd configuration (optional)
+.clangd

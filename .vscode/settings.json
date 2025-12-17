@@ -44,5 +44,13 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "typeinfo": "cpp"
-    }
+    },
+    "cmake.cmakePath": "cube-cmake",
+    "cmake.configureArgs": [
+        "-DCMAKE_COMMAND=cube-cmake"
+    ],
+    "cmake.preferredGenerators": [
+        "Ninja"
+    ],
+    "stm32cube-ide-clangd.path": "cube"
 }

@@ -245,7 +245,7 @@ void VelocityPIController::onTimerTick() {
   const float dt_s = (dt_cyc == 0) ? 0.0f : (static_cast<float>(dt_cyc) * inv_sysclk);
   const uint32_t now_ms = HAL_GetTick();
 
-  // 目標の取得優先度: ext_target_ptr_ -> 0（位置指令化に伴いcmd_src_は未使用）
+  // 目標の取得優先度: ext_target_ptr_ -> 0
   float target_in = 0.0f;
   if (ext_target_ptr_) {
     target_in = target_scale_ * (*ext_target_ptr_);
@@ -271,9 +271,6 @@ void VelocityPIController::onTimerTick() {
       if (ext_pos_ptr_ && ext_vel_ptr_) {
         *ext_pos_ptr_ = pos;
         *ext_vel_ptr_ = vel;
-      } else if (status_sink_) {
-        status_sink_->theta_enc_pos = pos;
-        status_sink_->theta_enc_vel = vel;
       }
       return; // 即時復帰（以降のLPF/PI計算は行わない）
     }
@@ -317,8 +314,5 @@ void VelocityPIController::onTimerTick() {
   if (ext_pos_ptr_ && ext_vel_ptr_) {
     *ext_pos_ptr_ = pos_out;
     *ext_vel_ptr_ = vel;
-  } else if (status_sink_) {
-    status_sink_->theta_enc_pos = pos_out;
-    status_sink_->theta_enc_vel = vel;
   }
 }
