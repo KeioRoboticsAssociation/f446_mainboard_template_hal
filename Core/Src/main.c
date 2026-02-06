@@ -21,7 +21,6 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "microros_config.h"
 
 /* USER CODE END Includes */
 
@@ -91,16 +90,6 @@ int main(void)
   MX_GPIO_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-  // Optional boot sanity pulse on LD2 (disabled by default to avoid delaying micro-ROS connection).
-#ifndef F446_BOOT_SANITY_MS
-#define F446_BOOT_SANITY_MS 0
-#endif
-#if (F446_BOOT_SANITY_MS > 0)
-  HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_SET);
-  HAL_Delay(F446_BOOT_SANITY_MS);
-  HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
-#endif
-
   setup();
   /* USER CODE END 2 */
 
@@ -179,7 +168,7 @@ static void MX_USART2_UART_Init(void)
 
   /* USER CODE END USART2_Init 1 */
   huart2.Instance = USART2;
-  huart2.Init.BaudRate = MICROROS_UART_BAUDRATE;
+  huart2.Init.BaudRate = 115200;
   huart2.Init.WordLength = UART_WORDLENGTH_8B;
   huart2.Init.StopBits = UART_STOPBITS_1;
   huart2.Init.Parity = UART_PARITY_NONE;
@@ -248,11 +237,6 @@ void Error_Handler(void)
   __disable_irq();
   while (1)
   {
-    // Visualize fatal error on LD2 without relying on interrupts/SysTick.
-    HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
-    for (volatile uint32_t i = 0; i < 40000000U; i++) {
-      __NOP();
-    }
   }
   /* USER CODE END Error_Handler_Debug */
 }

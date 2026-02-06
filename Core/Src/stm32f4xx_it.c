@@ -52,24 +52,6 @@
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
-static void fault_led_init(void)
-{
-  // Minimal GPIO init for LD2 (PA5) without HAL dependencies.
-  RCC->AHB1ENR |= RCC_AHB1ENR_GPIOAEN;
-  __DSB();
-  // PA5 output
-  GPIOA->MODER &= ~(3U << (5U * 2U));
-  GPIOA->MODER |= (1U << (5U * 2U));
-}
-
-static void fault_led_toggle_delay(void)
-{
-  GPIOA->ODR ^= (1U << 5U);
-  for (volatile uint32_t i = 0; i < 40000000U; i++) {
-    __NOP();
-  }
-}
-
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
@@ -90,10 +72,8 @@ void NMI_Handler(void)
 
   /* USER CODE END NonMaskableInt_IRQn 0 */
   /* USER CODE BEGIN NonMaskableInt_IRQn 1 */
-  fault_led_init();
    while (1)
   {
-    fault_led_toggle_delay();
   }
   /* USER CODE END NonMaskableInt_IRQn 1 */
 }
@@ -106,11 +86,9 @@ void HardFault_Handler(void)
   /* USER CODE BEGIN HardFault_IRQn 0 */
 
   /* USER CODE END HardFault_IRQn 0 */
-  fault_led_init();
   while (1)
   {
     /* USER CODE BEGIN W1_HardFault_IRQn 0 */
-    fault_led_toggle_delay();
     /* USER CODE END W1_HardFault_IRQn 0 */
   }
 }
@@ -123,11 +101,9 @@ void MemManage_Handler(void)
   /* USER CODE BEGIN MemoryManagement_IRQn 0 */
 
   /* USER CODE END MemoryManagement_IRQn 0 */
-  fault_led_init();
   while (1)
   {
     /* USER CODE BEGIN W1_MemoryManagement_IRQn 0 */
-    fault_led_toggle_delay();
     /* USER CODE END W1_MemoryManagement_IRQn 0 */
   }
 }
@@ -140,11 +116,9 @@ void BusFault_Handler(void)
   /* USER CODE BEGIN BusFault_IRQn 0 */
 
   /* USER CODE END BusFault_IRQn 0 */
-  fault_led_init();
   while (1)
   {
     /* USER CODE BEGIN W1_BusFault_IRQn 0 */
-    fault_led_toggle_delay();
     /* USER CODE END W1_BusFault_IRQn 0 */
   }
 }
@@ -157,11 +131,9 @@ void UsageFault_Handler(void)
   /* USER CODE BEGIN UsageFault_IRQn 0 */
 
   /* USER CODE END UsageFault_IRQn 0 */
-  fault_led_init();
   while (1)
   {
     /* USER CODE BEGIN W1_UsageFault_IRQn 0 */
-    fault_led_toggle_delay();
     /* USER CODE END W1_UsageFault_IRQn 0 */
   }
 }
@@ -225,34 +197,6 @@ void SysTick_Handler(void)
 /* For the available peripheral interrupt handler names,                      */
 /* please refer to the startup file (startup_stm32f4xx.s).                    */
 /******************************************************************************/
-
-/**
-  * @brief This function handles DMA1 stream5 global interrupt.
-  */
-void DMA1_Stream5_IRQHandler(void)
-{
-  /* USER CODE BEGIN DMA1_Stream5_IRQn 0 */
-
-  /* USER CODE END DMA1_Stream5_IRQn 0 */
-  HAL_DMA_IRQHandler(huart2.hdmarx);
-  /* USER CODE BEGIN DMA1_Stream5_IRQn 1 */
-
-  /* USER CODE END DMA1_Stream5_IRQn 1 */
-}
-
-/**
-  * @brief This function handles DMA1 stream6 global interrupt.
-  */
-void DMA1_Stream6_IRQHandler(void)
-{
-  /* USER CODE BEGIN DMA1_Stream6_IRQn 0 */
-
-  /* USER CODE END DMA1_Stream6_IRQn 0 */
-  HAL_DMA_IRQHandler(huart2.hdmatx);
-  /* USER CODE BEGIN DMA1_Stream6_IRQn 1 */
-
-  /* USER CODE END DMA1_Stream6_IRQn 1 */
-}
 
 /**
   * @brief This function handles USART2 global interrupt.

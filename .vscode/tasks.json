@@ -17,7 +17,8 @@
                 "--connect",
                 "port=swd",
                 "--download",
-                "${workspaceFolder}/build/Debug/f446_hal_microros.elf",
+                "${command:cmake.launchTargetPath}",
+                // Let CMake extension decide executable: "${command:cmake.launchTargetPath}",
                 "-hardRst", // Hardware reset - if rst pin is connected
                 "-rst", // Software reset (backup)
                 "--start" // Start execution
@@ -26,18 +27,6 @@
                 "cwd": "${workspaceFolder}"
             },
             "problemMatcher": []
-        },
-        {
-            "type": "cmake",
-            "label": "CMake: build",
-            "command": "build",
-            "targets": [
-                "all"
-            ],
-            "preset": "${command:cmake.activeBuildPresetName}",
-            "group": "build",
-            "problemMatcher": [],
-            "detail": "CMake template build task"
         },
         {
             "label": "Build + Flash",
