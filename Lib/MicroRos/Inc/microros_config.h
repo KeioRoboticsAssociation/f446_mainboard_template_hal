@@ -1,0 +1,28 @@
+#pragma once
+
+// Centralized micro-ROS transport/runtime tuning.
+// Override any value from build flags with -D<NAME>=...
+
+#ifndef MICROROS_UART_BAUDRATE
+#define MICROROS_UART_BAUDRATE 115200U
+#endif
+
+#ifndef MICROROS_UART_READ_INFINITE_TIMEOUT_MS
+#define MICROROS_UART_READ_INFINITE_TIMEOUT_MS 1000
+#endif
+
+#ifndef MICROROS_UART_READ_INTERBYTE_TIMEOUT_MS
+#define MICROROS_UART_READ_INTERBYTE_TIMEOUT_MS 5
+#endif
+
+#ifndef MICROROS_UART_RX_DMA_BUFFER_SIZE
+#define MICROROS_UART_RX_DMA_BUFFER_SIZE 512U
+#endif
+
+#ifndef MICROROS_UART_RX_RING_SIZE
+#define MICROROS_UART_RX_RING_SIZE 2048U
+#endif
+
+#ifndef MICROROS_UART_TX_DMA_TIMEOUT_MS
+#define MICROROS_UART_TX_DMA_TIMEOUT_MS 1000U
+#endif

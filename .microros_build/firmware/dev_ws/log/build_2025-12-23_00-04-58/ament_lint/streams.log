@@ -1,0 +1,36 @@
+[1.346s] Invoking command in '/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/ament/ament_lint/ament_lint': PYTHONPATH=/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/build/ament_lint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_lint build --build-base /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/build/ament_lint/build install --record /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/build/ament_lint/install.log --single-version-externally-managed install_data
+[1.558s] running egg_info
+[1.559s] creating ../../../build/ament_lint/ament_lint.egg-info
+[1.560s] writing ../../../build/ament_lint/ament_lint.egg-info/PKG-INFO
+[1.560s] writing dependency_links to ../../../build/ament_lint/ament_lint.egg-info/dependency_links.txt
+[1.560s] writing entry points to ../../../build/ament_lint/ament_lint.egg-info/entry_points.txt
+[1.560s] writing requirements to ../../../build/ament_lint/ament_lint.egg-info/requires.txt
+[1.560s] writing top-level names to ../../../build/ament_lint/ament_lint.egg-info/top_level.txt
+[1.561s] writing manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.563s] reading manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.564s] writing manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.564s] running build
+[1.564s] running build_py
+[1.564s] creating /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/build/ament_lint/build
+[1.565s] creating /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/build/ament_lint/build/lib
+[1.565s] creating /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/build/ament_lint/build/lib/ament_lint
+[1.565s] copying ament_lint/__init__.py -> /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/build/ament_lint/build/lib/ament_lint
+[1.565s] copying ament_lint/pytest_marker.py -> /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/build/ament_lint/build/lib/ament_lint
+[1.565s] running install
+[1.566s] running install_lib
+[1.567s] creating /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages/ament_lint
+[1.567s] copying /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/build/ament_lint/build/lib/ament_lint/__init__.py -> /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages/ament_lint
+[1.567s] copying /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/build/ament_lint/build/lib/ament_lint/pytest_marker.py -> /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages/ament_lint
+[1.567s] byte-compiling /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages/ament_lint/__init__.py to __init__.cpython-310.pyc
+[1.567s] byte-compiling /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages/ament_lint/pytest_marker.py to pytest_marker.cpython-310.pyc
+[1.567s] running install_data
+[1.567s] copying package.xml -> /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/install/ament_lint/share/ament_lint
+[1.567s] creating /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/install/ament_lint/share/ament_index
+[1.567s] creating /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/install/ament_lint/share/ament_index/resource_index
+[1.567s] creating /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/install/ament_lint/share/ament_index/resource_index/packages
+[1.568s] copying resource/ament_lint -> /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/install/ament_lint/share/ament_index/resource_index/packages
+[1.568s] running install_egg_info
+[1.569s] Copying ../../../build/ament_lint/ament_lint.egg-info to /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages/ament_lint-0.12.14-py3.10.egg-info
+[1.569s] running install_scripts
+[1.592s] writing list of installed files to '/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/build/ament_lint/install.log'
+[1.664s] Invoked command in '/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/ament/ament_lint/ament_lint' returned '0': PYTHONPATH=/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/build/ament_lint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_lint build --build-base /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/build/ament_lint/build install --record /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/dev_ws/build/ament_lint/install.log --single-version-externally-managed install_data

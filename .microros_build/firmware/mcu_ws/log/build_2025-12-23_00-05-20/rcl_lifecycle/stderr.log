@@ -1,0 +1,11 @@
+/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/uros/rcl/rcl_lifecycle/src/rcl_lifecycle.c: In function 'rcl_lifecycle_state_machine_fini':
+/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/uros/rcl/rcl_lifecycle/src/rcl_lifecycle.c:265:24: warning: unused variable 'error_string' [-Wunused-variable]
+  265 |     rcl_error_string_t error_string = rcl_get_error_string();
+      |                        ^~~~~~~~~~~~
+/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/uros/rcl/rcl_lifecycle/src/rcl_lifecycle.c:275:24: warning: unused variable 'error_string' [-Wunused-variable]
+  275 |     rcl_error_string_t error_string = rcl_get_error_string();
+      |                        ^~~~~~~~~~~~
+/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/uros/rcl/rcl_lifecycle/src/rcl_lifecycle.c: In function '_trigger_transition':
+/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/uros/rcl/rcl_lifecycle/src/rcl_lifecycle.c:366:26: warning: unused variable 'error_string' [-Wunused-variable]
+  366 |       rcl_error_string_t error_string = rcl_get_error_string();
+      |                          ^~~~~~~~~~~~

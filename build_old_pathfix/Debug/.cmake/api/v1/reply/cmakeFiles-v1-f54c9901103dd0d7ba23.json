@@ -1,0 +1,334 @@
+{
+	"globsDependent" : 
+	[
+		{
+			"expression" : "/home/aa/hal_ws/f446_mainboard_template_hal/Core/Src/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Core/Src/main.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Core/Src/stm32f4xx_hal_msp.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Core/Src/stm32f4xx_it.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Core/Src/syscalls.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Core/Src/sysmem.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Core/Src/system_stm32f4xx.c"
+			]
+		},
+		{
+			"expression" : "/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c"
+			]
+		},
+		{
+			"expression" : "/home/aa/hal_ws/f446_mainboard_template_hal/Lib/*/Src/*.c",
+			"paths" : 
+			[
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Lib/MicroRos/Src/microros_app.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Lib/MicroRos/Src/microros_core.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Lib/MicroRos/Src/microros_printf.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Lib/MicroRos/Src/microros_time_hal.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Lib/MicroRos/Src/microros_transport_uart.c",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Lib/MicroRos/Src/stdio_microros.c"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "/home/aa/hal_ws/f446_mainboard_template_hal/Lib/*/Src/*.cpp",
+			"paths" : 
+			[
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Lib/Air/Src/AirSolenoid.cpp",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Lib/Button/Src/Button.cpp",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Lib/Control/Src/PositionPIDController.cpp",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Lib/Control/Src/VelocityPIController.cpp",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Lib/DCMotor/Src/DCMotor.cpp",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Lib/Encoder/Src/Encoder.cpp",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Lib/Perf/Src/PerfMonitor.cpp",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Lib/RogiLinkFlex/Src/CommunicationBase.cpp",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Lib/RogiLinkFlex/Src/UartLink.cpp",
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Lib/Servo/Src/Servo.cpp"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "/home/aa/hal_ws/f446_mainboard_template_hal/Src/*.c",
+			"paths" : [],
+			"recurse" : true
+		},
+		{
+			"expression" : "/home/aa/hal_ws/f446_mainboard_template_hal/Src/*.cpp",
+			"paths" : 
+			[
+				"/home/aa/hal_ws/f446_mainboard_template_hal/Src/main.cpp"
+			],
+			"recurse" : true
+		}
+	],
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/gcc-arm-none-eabi.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/4.0.1/CMakeSystem.cmake"
+		},
+		{
+			"path" : "cmake/gcc-arm-none-eabi.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/4.0.1/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/4.0.1/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/4.0.1/CMakeASMCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/Internal/CMakeCLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/Internal/CMakeCXXLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/CMakeASMInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/Compiler/GNU-ASM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/aa/.local/share/stm32cube/bundles/cmake/4.0.1+st.3/share/cmake-4.0/Modules/Internal/CMakeASMLinkerInformation.cmake"
+		},
+		{
+			"path" : "cmake/stm32cubemx/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/aa/hal_ws/f446_mainboard_template_hal/build/Debug",
+		"source" : "/home/aa/hal_ws/f446_mainboard_template_hal"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

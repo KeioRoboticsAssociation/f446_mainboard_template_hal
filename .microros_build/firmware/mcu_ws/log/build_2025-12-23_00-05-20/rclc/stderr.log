@@ -1,0 +1,4 @@
+/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/uros/rclc/rclc/src/rclc/executor_handle.c: In function 'rclc_executor_handle_print':
+/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/uros/rclc/rclc/src/rclc/executor_handle.c:84:10: warning: variable 'typeName' set but not used [-Wunused-but-set-variable]
+   84 |   char * typeName;
+      |          ^~~~~~~~

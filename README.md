@@ -14,7 +14,7 @@ function f446_hal {
     else 
         project_name=$1
     fi
-    git clone git@github.com:KeioRoboticsAssociation/f446_mainboard_template_hal.git $project_name
+    git clone git@github.com:KeioRoboticsAssociation/f446_hal_microros.git $project_name
     cd $project_name
     bash ./.install.sh $project_name
 }
@@ -35,7 +35,7 @@ if "%~1"=="" (
 )
 
 rem Clone the Git repository
-git clone git@github.com:KeioRoboticsAssociation/f446_mainboard_template_hal.git %project_name%
+git clone git@github.com:KeioRoboticsAssociation/f446_hal_microros.git %project_name%
 if errorlevel 1 (
     echo Failed to clone repository
     exit /b 1

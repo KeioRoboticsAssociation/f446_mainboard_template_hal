@@ -1,0 +1,4 @@
+/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/util/time.c: In function 'uxr_nanos':
+/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/util/time.c:71:5: warning: implicit declaration of function 'clock_gettime' [-Wimplicit-function-declaration]
+   71 |     clock_gettime(CLOCK_REALTIME, &ts);
+      |     ^~~~~~~~~~~~~

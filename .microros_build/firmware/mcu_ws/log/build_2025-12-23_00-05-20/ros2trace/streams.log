@@ -1,0 +1,43 @@
+[1.473s] Invoking command in '/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/uros/tracetools/ros2trace': AMENT_PREFIX_PATH=/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/build/ros2trace/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2trace build --build-base /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/build/ros2trace/build install --record /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/build/ros2trace/install.log --single-version-externally-managed install_data
+[1.851s] running egg_info
+[1.852s] creating ../../../build/ros2trace/ros2trace.egg-info
+[1.852s] writing ../../../build/ros2trace/ros2trace.egg-info/PKG-INFO
+[1.853s] writing dependency_links to ../../../build/ros2trace/ros2trace.egg-info/dependency_links.txt
+[1.853s] writing entry points to ../../../build/ros2trace/ros2trace.egg-info/entry_points.txt
+[1.853s] writing requirements to ../../../build/ros2trace/ros2trace.egg-info/requires.txt
+[1.853s] writing top-level names to ../../../build/ros2trace/ros2trace.egg-info/top_level.txt
+[1.853s] writing manifest file '../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+[1.856s] reading manifest file '../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+[1.857s] writing manifest file '../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+[1.857s] running build
+[1.857s] running build_py
+[1.857s] creating /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/build/ros2trace/build
+[1.857s] creating /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/build/ros2trace/build/lib
+[1.857s] creating /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace
+[1.858s] copying ros2trace/__init__.py -> /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace
+[1.858s] creating /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/api
+[1.858s] copying ros2trace/api/__init__.py -> /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/api
+[1.858s] creating /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command
+[1.858s] copying ros2trace/command/__init__.py -> /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command
+[1.858s] copying ros2trace/command/trace.py -> /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command
+[1.858s] running install
+[1.859s] running install_lib
+[1.862s] creating /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace
+[1.862s] creating /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/api
+[1.862s] copying /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/api/__init__.py -> /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/api
+[1.863s] copying /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/__init__.py -> /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace
+[1.863s] creating /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/command
+[1.863s] copying /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command/__init__.py -> /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/command
+[1.863s] copying /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command/trace.py -> /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/command
+[1.864s] byte-compiling /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/api/__init__.py to __init__.cpython-310.pyc
+[1.864s] byte-compiling /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/__init__.py to __init__.cpython-310.pyc
+[1.864s] byte-compiling /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/command/__init__.py to __init__.cpython-310.pyc
+[1.864s] byte-compiling /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/command/trace.py to trace.cpython-310.pyc
+[1.865s] running install_data
+[1.865s] copying package.xml -> /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/install/share/ros2trace
+[1.866s] copying resource/ros2trace -> /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[1.866s] running install_egg_info
+[1.870s] Copying ../../../build/ros2trace/ros2trace.egg-info to /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace-4.1.1-py3.10.egg-info
+[1.871s] running install_scripts
+[1.903s] writing list of installed files to '/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/build/ros2trace/install.log'
+[1.987s] Invoked command in '/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/uros/tracetools/ros2trace' returned '0': AMENT_PREFIX_PATH=/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/build/ros2trace/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2trace build --build-base /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/build/ros2trace/build install --record /home/aa/hal_ws/f446_mainboard_template_hal/.microros_build/firmware/mcu_ws/build/ros2trace/install.log --single-version-externally-managed install_data
